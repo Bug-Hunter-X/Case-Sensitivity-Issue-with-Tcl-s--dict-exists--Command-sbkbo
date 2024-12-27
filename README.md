@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to case sensitivity in Tcl's `dict exists` command. The `bug.tcl` file shows how a seemingly correct key lookup can fail if the case of the key doesn't exactly match the case of the keys in the dictionary. The `bugSolution.tcl` file provides a solution that uses string matching to address the case sensitivity issue.
